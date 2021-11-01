@@ -1,0 +1,1 @@
+{"id":"1635737354604-a559caf6-dd3a-4b6c-9337-726a194362e3","testOrder":["org.apache.rocketmq.broker.BrokerStartupTest.testProperties2SystemEnv"],"results":{"org.apache.rocketmq.broker.BrokerStartupTest.testProperties2SystemEnv":{"name":"org.apache.rocketmq.broker.BrokerStartupTest.testProperties2SystemEnv","result":"PASS","time":0.186324946,"stackTrace":[]}}}

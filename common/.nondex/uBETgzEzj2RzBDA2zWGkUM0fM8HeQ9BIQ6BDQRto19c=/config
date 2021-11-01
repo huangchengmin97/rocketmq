@@ -1,0 +1,11 @@
+nondexFilter=.*
+nondexMode=FULL
+nondexSeed=933178
+nondexStart=0
+nondexEnd=9223372036854775807
+nondexPrintstack=false
+nondexDir=/home/ch61/rocketmq/common/.nondex
+nondexJarDir=/home/ch61/rocketmq/common/.nondex
+nondexExecid=uBETgzEzj2RzBDA2zWGkUM0fM8HeQ9BIQ6BDQRto19c=
+nondexLogging=CONFIG
+test=

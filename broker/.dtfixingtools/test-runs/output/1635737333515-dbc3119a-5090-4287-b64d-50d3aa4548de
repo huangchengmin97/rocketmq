@@ -1,0 +1,3 @@
+org.apache.rocketmq.broker.mqtrace.SendMessageContext@1bdbf9be
+(((NOT (a == NULL)) && (a > 80)) && (a < 100))
+ConsumerFilterData[consumerGroup=CID_9,topic=topic9,expression=a > 0 and a < 10,expressionType=SQL92,bornTime=1635737335697,deadTime=0,bloomFilterData=BloomFilterData{bitPos=[203, 99, 211], bitNum=216},clientVersion=1635737335698]

@@ -1,0 +1,278 @@
+22:33:10.051 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.090 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:10.091 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 1
+22:33:10.091 [main] INFO  RocketmqNamesrv - topicQueueTable Topic: topic-a [QueueData [brokerName=broker-a, readQueueNums=0, writeQueueNums=0, perm=4, topicSysFlag=0]]
+22:33:10.091 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:10.091 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:10.091 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:10.099 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737590049, dataVersion=DataVersion[timestamp=1635737589669, counter=0], channel=Mock for Channel, hashCode: 532048323, haServerAddr=127.0.0.1:1001]
+22:33:10.099 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:10.099 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:10.099 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:10.099 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:10.099 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:10.099 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:10.099 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:10.102 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.175 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:10.176 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:10.176 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:10.176 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:10.176 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:10.176 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737590102, dataVersion=DataVersion[timestamp=1635737590102, counter=0], channel=Mock for Channel, hashCode: 2073299099, haServerAddr=127.0.0.1:1001]
+22:33:10.176 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:10.176 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:10.176 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:10.176 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:10.176 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:10.176 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:10.176 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:10.177 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.178 [main] DEBUG RocketmqNamesrv - pickupTopicRouteData unit_test TopicRouteData [orderTopicConf=null, queueDatas=null, brokerDatas=[], filterServerTable={}]
+22:33:10.178 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:10.178 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:10.178 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:10.178 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:10.178 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:10.178 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737590177, dataVersion=DataVersion[timestamp=1635737590177, counter=0], channel=Mock for Channel, hashCode: 2090991873, haServerAddr=127.0.0.1:1001]
+22:33:10.179 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:10.180 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:10.180 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:10.180 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:10.180 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:10.180 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:10.180 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:10.180 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.180 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:10.180 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:10.180 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:10.180 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:10.180 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:10.181 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737590180, dataVersion=DataVersion[timestamp=1635737590180, counter=0], channel=Mock for Channel, hashCode: 1633013890, haServerAddr=127.0.0.1:1001]
+22:33:10.181 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:10.181 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:10.181 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:10.181 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:10.181 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:10.181 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:10.181 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:10.182 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.191 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:10.191 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:10.191 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:10.191 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:10.191 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:10.191 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737590182, dataVersion=DataVersion[timestamp=1635737590181, counter=0], channel=Mock for Channel, hashCode: 1119622337, haServerAddr=127.0.0.1:1001]
+22:33:10.191 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:10.191 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:10.191 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:10.191 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:10.191 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:10.191 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:10.191 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:10.191 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.191 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:10.191 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:10.191 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:10.191 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:10.191 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:10.192 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737590191, dataVersion=DataVersion[timestamp=1635737590191, counter=0], channel=Mock for Channel, hashCode: 1681303515, haServerAddr=127.0.0.1:1001]
+22:33:10.192 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:10.192 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:10.192 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:10.192 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:10.192 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:10.192 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:10.192 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:10.192 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.192 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:10.192 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 1
+22:33:10.192 [main] INFO  RocketmqNamesrv - topicQueueTable Topic: topic-a [QueueData [brokerName=broker-a, readQueueNums=0, writeQueueNums=0, perm=6, topicSysFlag=0]]
+22:33:10.192 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:10.192 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:10.192 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:10.193 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737590192, dataVersion=DataVersion[timestamp=1635737590192, counter=0], channel=Mock for Channel, hashCode: 1175371136, haServerAddr=127.0.0.1:1001]
+22:33:10.193 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:10.193 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:10.193 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:10.193 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:10.193 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:10.193 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:10.193 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:10.193 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.193 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:10.193 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:10.193 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:10.193 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:10.193 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:10.193 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737590193, dataVersion=DataVersion[timestamp=1635737590193, counter=0], channel=Mock for Channel, hashCode: 632071960, haServerAddr=127.0.0.1:1001]
+22:33:10.193 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:10.193 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:10.193 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:10.193 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:10.193 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:10.193 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:10.193 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:10.194 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.194 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:10.194 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:10.194 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:10.194 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:10.194 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:10.194 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737590194, dataVersion=DataVersion[timestamp=1635737590194, counter=0], channel=Mock for Channel, hashCode: 1076071888, haServerAddr=127.0.0.1:1001]
+22:33:10.194 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:10.194 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:10.194 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:10.194 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:10.194 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:10.194 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:10.194 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:10.194 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.195 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:10.195 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:10.195 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:10.195 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:10.195 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:10.195 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737590194, dataVersion=DataVersion[timestamp=1635737590194, counter=0], channel=Mock for Channel, hashCode: 230526532, haServerAddr=127.0.0.1:1001]
+22:33:10.195 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:10.195 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:10.195 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:10.195 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:10.195 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:10.195 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:10.195 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:10.195 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.195 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:10.195 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:10.195 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:10.195 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:10.195 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:10.195 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737590195, dataVersion=DataVersion[timestamp=1635737590195, counter=0], channel=Mock for Channel, hashCode: 790487766, haServerAddr=127.0.0.1:1001]
+22:33:10.195 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:10.195 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:10.195 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:10.196 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:10.196 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:10.196 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:10.196 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:10.205 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.279 [main] INFO  RocketmqNamesrv - new broker registered, 10.10.1.1 HAServer: 10.10.2.1
+22:33:10.285 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.285 [main] INFO  RocketmqNamesrv - putKVConfig create new Namespace namespace
+22:33:10.285 [main] INFO  RocketmqNamesrv - putKVConfig create new config item, Namespace: namespace Key: key Value: value
+22:33:10.288 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.289 [main] INFO  RocketmqNamesrv - new broker registered, 10.10.1.1 HAServer: 10.10.2.1
+22:33:10.289 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.289 [main] INFO  RocketmqNamesrv - putKVConfig create new Namespace namespace
+22:33:10.289 [main] INFO  RocketmqNamesrv - putKVConfig create new config item, Namespace: namespace Key: key Value: value
+22:33:10.290 [main] INFO  RocketmqNamesrv - deleteKVConfig delete a config item, Namespace: namespace Key: key Value: value
+22:33:10.291 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.291 [main] INFO  RocketmqNamesrv - putKVConfig create new Namespace namespace
+22:33:10.291 [main] INFO  RocketmqNamesrv - putKVConfig create new config item, Namespace: namespace Key: key Value: value
+22:33:10.292 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.292 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:10.293 [main] INFO  RocketmqNamesrv - new broker registered, 10.10.1.1 HAServer: 10.10.2.1
+22:33:10.293 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 10.10.1.1
+22:33:10.293 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 10.10.1.1
+22:33:10.293 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, broker
+22:33:10.293 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, broker
+22:33:10.293 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable cluster
+22:33:10.311 [main] INFO  RocketmqNamesrv - load KV config table OK
+22:33:10.337 [main] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
+22:33:10.337 [main] DEBUG i.n.u.i.InternalThreadLocalMap - -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
+22:33:10.355 [main] DEBUG i.n.util.internal.PlatformDependent0 - -Dio.netty.noUnsafe: false
+22:33:10.355 [main] DEBUG i.n.util.internal.PlatformDependent0 - Java version: 8
+22:33:10.356 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.theUnsafe: available
+22:33:10.356 [main] DEBUG i.n.util.internal.PlatformDependent0 - sun.misc.Unsafe.copyMemory: available
+22:33:10.357 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Buffer.address: available
+22:33:10.357 [main] DEBUG i.n.util.internal.PlatformDependent0 - direct buffer constructor: available
+22:33:10.358 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.Bits.unaligned: available, true
+22:33:10.358 [main] DEBUG i.n.util.internal.PlatformDependent0 - jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
+22:33:10.358 [main] DEBUG i.n.util.internal.PlatformDependent0 - java.nio.DirectByteBuffer.<init>(long, int): available
+22:33:10.358 [main] DEBUG i.n.util.internal.PlatformDependent - sun.misc.Unsafe: available
+22:33:10.358 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.tmpdir: /tmp (java.io.tmpdir)
+22:33:10.358 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.bitMode: 64 (sun.arch.data.model)
+22:33:10.359 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.maxDirectMemory: 466092032 bytes
+22:33:10.359 [main] DEBUG i.n.util.internal.PlatformDependent - -Dio.netty.uninitializedArrayAllocationThreshold: -1
+22:33:10.360 [main] DEBUG io.netty.util.internal.CleanerJava6 - java.nio.ByteBuffer.cleaner(): available
+22:33:10.367 [main] DEBUG i.n.util.internal.PlatformDependent - org.jctools-core.MpscChunkedArrayQueue: available
+22:33:10.370 [main] INFO  io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3e34ace1
+22:33:10.371 [main] INFO  io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@6cbcf243
+22:33:10.371 [main] INFO  io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@29e6eb25
+22:33:10.371 [main] INFO  io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@62435e70
+22:33:10.372 [main] INFO  RocketmqRemoting - Server is running in TLS permissive mode
+22:33:10.373 [main] INFO  RocketmqRemoting - Tls config file doesn't exist, skip it
+22:33:10.373 [main] INFO  RocketmqRemoting - Log the final used tls related configuration
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.test.mode.enable = true
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.server.need.client.auth = none
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.server.keyPath = null
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.server.keyPassword = null
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.server.certPath = null
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.server.authClient = false
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.server.trustCertPath = null
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.client.keyPath = null
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.client.keyPassword = null
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.client.certPath = null
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.client.authServer = false
+22:33:10.373 [main] INFO  RocketmqRemoting - tls.client.trustCertPath = null
+22:33:10.377 [main] DEBUG io.netty.handler.ssl.OpenSsl - netty-tcnative not in the classpath; OpenSslEngine will be unavailable.
+22:33:10.379 [main] INFO  RocketmqRemoting - Using JDK SSL provider
+22:33:10.751 [main] DEBUG i.n.util.ResourceLeakDetectorFactory - Loaded default ResourceLeakDetector: io.netty.util.ResourceLeakDetector@6d0b5baf
+22:33:10.767 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.allocator.type: pooled
+22:33:10.767 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.threadLocalDirectBufferSize: 0
+22:33:10.767 [main] DEBUG io.netty.buffer.ByteBufUtil - -Dio.netty.maxThreadLocalCharBufferSize: 16384
+22:33:10.939 [main] INFO  RocketmqRemoting - SSLContext created for server
+22:33:10.964 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv4Stack: false
+22:33:10.964 [main] DEBUG io.netty.util.NetUtil - -Djava.net.preferIPv6Addresses: false
+22:33:10.967 [main] DEBUG io.netty.util.NetUtilInitializations - Loopback interface: lo (lo, 0:0:0:0:0:0:0:1%lo)
+22:33:10.998 [main] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0x462ad5cb]'
+22:33:11.009 [main] INFO  RocketmqCommon - Try to start service thread:FileWatchService started:false lastThread:null
+22:33:11.009 [NettyEventExecutor] INFO  RocketmqRemoting - NettyEventExecutor service started
+22:33:11.009 [main] INFO  RocketmqNamesrv - putKVConfig create new Namespace ORDER_TOPIC_CONFIG
+22:33:11.009 [main] INFO  RocketmqNamesrv - putKVConfig create new config item, Namespace: ORDER_TOPIC_CONFIG Key: UnitTest Value: test
+22:33:11.014 [FileWatchService] INFO  RocketmqCommon - FileWatchService service started
+22:33:11.015 [main] INFO  RocketmqRemoting - shutdown thread NettyEventExecutor interrupt false
+22:33:14.009 [NettyEventExecutor] INFO  RocketmqRemoting - NettyEventExecutor service end
+22:33:14.010 [main] INFO  RocketmqRemoting - join thread NettyEventExecutor elapsed time(ms) 2995 90000
+22:33:14.011 [main] INFO  RocketmqCommon - Try to shutdown service thread:FileWatchService started:true lastThread:Thread[FileWatchService,5,main]
+22:33:14.011 [main] INFO  RocketmqCommon - shutdown thread FileWatchService interrupt false
+22:33:14.011 [FileWatchService] INFO  RocketmqCommon - FileWatchService service end
+22:33:14.011 [main] INFO  RocketmqCommon - join thread FileWatchService elapsed time(ms) 0 90000
+22:33:14.012 [main] INFO  RocketmqNamesrv - load KV config table OK
+22:33:14.012 [main] INFO  io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3574e198
+22:33:14.013 [main] INFO  io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@db44aa2
+22:33:14.013 [main] INFO  io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@2de366bb
+22:33:14.013 [main] INFO  io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@3f093abe
+22:33:14.013 [main] INFO  RocketmqRemoting - Server is running in TLS permissive mode
+22:33:14.013 [main] INFO  RocketmqRemoting - Tls config file doesn't exist, skip it
+22:33:14.013 [main] INFO  RocketmqRemoting - Log the final used tls related configuration
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.test.mode.enable = true
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.server.need.client.auth = none
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.server.keyPath = null
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.server.keyPassword = null
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.server.certPath = null
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.server.authClient = false
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.server.trustCertPath = null
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.client.keyPath = null
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.client.keyPassword = null
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.client.certPath = null
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.client.authServer = false
+22:33:14.013 [main] INFO  RocketmqRemoting - tls.client.trustCertPath = null
+22:33:14.013 [main] INFO  RocketmqRemoting - Using JDK SSL provider
+22:33:14.107 [main] INFO  RocketmqRemoting - SSLContext created for server
+22:33:14.107 [main] WARN  io.netty.bootstrap.ServerBootstrap - Unknown channel option 'SO_KEEPALIVE' for channel '[id: 0x6959355d]'
+22:33:14.109 [main] INFO  RocketmqCommon - Try to start service thread:FileWatchService started:false lastThread:null
+22:33:14.109 [NettyEventExecutor] INFO  RocketmqRemoting - NettyEventExecutor service started
+22:33:14.111 [FileWatchService] INFO  RocketmqCommon - FileWatchService service started
+22:33:14.112 [main] INFO  RocketmqRemoting - shutdown thread NettyEventExecutor interrupt false
+22:33:17.109 [NettyEventExecutor] INFO  RocketmqRemoting - NettyEventExecutor service end
+22:33:17.110 [main] INFO  RocketmqRemoting - join thread NettyEventExecutor elapsed time(ms) 2998 90000
+22:33:17.111 [main] INFO  RocketmqCommon - Try to shutdown service thread:FileWatchService started:true lastThread:Thread[FileWatchService,5,main]
+22:33:17.111 [main] INFO  RocketmqCommon - shutdown thread FileWatchService interrupt false
+22:33:17.112 [FileWatchService] INFO  RocketmqCommon - FileWatchService service end
+22:33:17.112 [main] INFO  RocketmqCommon - join thread FileWatchService elapsed time(ms) 1 90000
+22:33:17.130 [main] INFO  io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@78461bc4
+22:33:17.151 [main] INFO  io.netty.channel.nio.NioEventLoop - instrumented a special java.util.Set into: sun.nio.ch.EPollSelectorImpl@1095f122
+22:33:17.163 [main] INFO  RocketmqCommon - Try to start service thread:PullMessageService started:false lastThread:null
+22:33:17.164 [main] INFO  RocketmqCommon - Try to start service thread:RebalanceService started:false lastThread:null
+22:33:17.397 [main] DEBUG RocketmqNamesrv - pickupTopicRouteData null TopicRouteData [orderTopicConf=null, queueDatas=null, brokerDatas=[], filterServerTable={}]

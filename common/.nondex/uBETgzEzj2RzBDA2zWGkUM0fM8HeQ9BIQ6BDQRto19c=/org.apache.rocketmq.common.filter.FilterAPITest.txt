@@ -1,0 +1,14 @@
+-------------------------------------------------------------------------------
+Test set: org.apache.rocketmq.common.filter.FilterAPITest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.013 sec <<< FAILURE! - in org.apache.rocketmq.common.filter.FilterAPITest
+testBuildTagSome(org.apache.rocketmq.common.filter.FilterAPITest)  Time elapsed: 0.012 sec  <<< FAILURE!
+java.lang.AssertionError: 
+
+Actual and expected have the same elements but not in the same order, at index 0 actual element was:
+  <"B">
+whereas expected element was:
+  <"A">
+
+	at org.apache.rocketmq.common.filter.FilterAPITest.testBuildTagSome(FilterAPITest.java:60)
+

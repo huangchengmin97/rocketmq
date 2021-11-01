@@ -1,0 +1,1 @@
+{"id":"1635732708223-04beadd8-bea4-4791-9908-6145d5c824b4","testOrder":["org.apache.rocketmq.remoting.RemotingServerTest.testInvokeAsync"],"results":{"org.apache.rocketmq.remoting.RemotingServerTest.testInvokeAsync":{"name":"org.apache.rocketmq.remoting.RemotingServerTest.testInvokeAsync","result":"PASS","time":0.127125383,"stackTrace":[]}}}

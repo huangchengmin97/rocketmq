@@ -1,0 +1,26 @@
+RocketMQLog:WARN No appenders could be found for logger (RocketmqCommon).
+RocketMQLog:WARN Please initialize the logger system properly.
+26712
+1377910
+{
+	"filterData":"default filter data",
+	"maxQueueIndex":100,
+	"minQueueIndex":1,
+	"queueData":[
+		{
+			"bitMap":"defaultBitMap",
+			"eval":false,
+			"msg":"this is default msg",
+			"physicOffset":10,
+			"physicSize":1,
+			"tagsCode":1
+		}
+	],
+	"subscriptionData":{
+		"classFilterMode":false,
+		"codeSet":[],
+		"expressionType":"TAG",
+		"subVersion":1635732762385,
+		"tagsSet":[]
+	}
+}

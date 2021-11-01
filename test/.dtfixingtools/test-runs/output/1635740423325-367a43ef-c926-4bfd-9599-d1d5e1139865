@@ -1,0 +1,12 @@
+23:20:24,074 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Could NOT find resource [logback.groovy]
+23:20:24,074 |-INFO in ch.qos.logback.classic.LoggerContext[default] - Found resource [logback-test.xml] at [file:/home/ch61/rocketmq/test/target/test-classes/logback-test.xml]
+23:20:24,110 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - debug attribute not set
+23:20:24,111 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - About to instantiate appender of type [ch.qos.logback.core.ConsoleAppender]
+23:20:24,117 |-INFO in ch.qos.logback.core.joran.action.AppenderAction - Naming appender as [DefaultAppender]
+23:20:24,139 |-ERROR in ch.qos.logback.core.joran.spi.Interpreter@22:17 - no applicable action for [append], current ElementPath  is [[configuration][appender][append]]
+23:20:24,140 |-INFO in ch.qos.logback.core.joran.action.NestedComplexPropertyIA - Assuming default type [ch.qos.logback.classic.encoder.PatternLayoutEncoder] for [encoder] property
+23:20:24,176 |-INFO in ch.qos.logback.classic.joran.action.LevelAction - ROOT level set to OFF
+23:20:24,176 |-INFO in ch.qos.logback.core.joran.action.AppenderRefAction - Attaching appender named [DefaultAppender] to Logger[ROOT]
+23:20:24,176 |-INFO in ch.qos.logback.classic.joran.action.ConfigurationAction - End of configuration.
+23:20:24,178 |-INFO in ch.qos.logback.classic.joran.JoranConfigurator@40f08448 - Registering current configuration as safe fallback point
+

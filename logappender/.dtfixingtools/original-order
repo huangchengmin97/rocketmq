@@ -1,0 +1,4 @@
+org.apache.rocketmq.logappender.LogbackTest.testLogback
+org.apache.rocketmq.logappender.Log4jPropertiesTest.testLog4j
+org.apache.rocketmq.logappender.log4j2Test.testLog4j2
+org.apache.rocketmq.logappender.Log4jXmlTest.testLog4j

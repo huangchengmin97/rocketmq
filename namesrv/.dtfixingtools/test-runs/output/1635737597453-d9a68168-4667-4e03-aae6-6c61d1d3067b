@@ -1,0 +1,186 @@
+22:33:18.572 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.669 [main] INFO  RocketmqNamesrv - new broker registered, 10.10.1.1 HAServer: 10.10.2.1
+22:33:18.702 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.703 [main] INFO  RocketmqNamesrv - new broker registered, 10.10.1.1 HAServer: 10.10.2.1
+22:33:18.703 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 10.10.1.1
+22:33:18.703 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 10.10.1.1
+22:33:18.703 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, broker
+22:33:18.703 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, broker
+22:33:18.703 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable cluster
+22:33:18.704 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.704 [main] INFO  RocketmqNamesrv - putKVConfig create new Namespace namespace
+22:33:18.704 [main] INFO  RocketmqNamesrv - putKVConfig create new config item, Namespace: namespace Key: key Value: value
+22:33:18.775 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.776 [main] INFO  RocketmqNamesrv - putKVConfig create new Namespace namespace
+22:33:18.776 [main] INFO  RocketmqNamesrv - putKVConfig create new config item, Namespace: namespace Key: key Value: value
+22:33:18.779 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.779 [main] INFO  RocketmqNamesrv - putKVConfig create new Namespace namespace
+22:33:18.779 [main] INFO  RocketmqNamesrv - putKVConfig create new config item, Namespace: namespace Key: key Value: value
+22:33:18.780 [main] INFO  RocketmqNamesrv - deleteKVConfig delete a config item, Namespace: namespace Key: key Value: value
+22:33:18.781 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.782 [main] INFO  RocketmqNamesrv - new broker registered, 10.10.1.1 HAServer: 10.10.2.1
+22:33:18.783 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.807 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.808 [main] DEBUG RocketmqNamesrv - pickupTopicRouteData unit_test TopicRouteData [orderTopicConf=null, queueDatas=null, brokerDatas=[], filterServerTable={}]
+22:33:18.808 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:18.808 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:18.808 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:18.808 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:18.808 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:18.809 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737598807, dataVersion=DataVersion[timestamp=1635737598807, counter=0], channel=Mock for Channel, hashCode: 191568263, haServerAddr=127.0.0.1:1001]
+22:33:18.809 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:18.809 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:18.809 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:18.809 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:18.809 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:18.809 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:18.809 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:18.811 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.815 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:18.815 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:18.815 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:18.815 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:18.815 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:18.815 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737598810, dataVersion=DataVersion[timestamp=1635737598810, counter=0], channel=Mock for Channel, hashCode: 2085886997, haServerAddr=127.0.0.1:1001]
+22:33:18.815 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:18.815 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:18.815 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:18.815 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:18.815 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:18.815 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:18.815 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:18.816 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.816 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:18.816 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:18.816 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:18.816 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:18.816 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:18.816 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737598816, dataVersion=DataVersion[timestamp=1635737598815, counter=0], channel=Mock for Channel, hashCode: 1108517064, haServerAddr=127.0.0.1:1001]
+22:33:18.816 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:18.816 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:18.816 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:18.816 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:18.816 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:18.816 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:18.817 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:18.817 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.825 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:18.825 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:18.826 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:18.826 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:18.826 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:18.826 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737598817, dataVersion=DataVersion[timestamp=1635737598817, counter=0], channel=Mock for Channel, hashCode: 1262110193, haServerAddr=127.0.0.1:1001]
+22:33:18.826 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:18.826 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:18.826 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:18.826 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:18.826 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:18.826 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:18.826 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:18.826 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.827 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:18.827 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 1
+22:33:18.827 [main] INFO  RocketmqNamesrv - topicQueueTable Topic: topic-a [QueueData [brokerName=broker-a, readQueueNums=0, writeQueueNums=0, perm=4, topicSysFlag=0]]
+22:33:18.827 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:18.827 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:18.827 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:18.827 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737598826, dataVersion=DataVersion[timestamp=1635737598826, counter=0], channel=Mock for Channel, hashCode: 396918327, haServerAddr=127.0.0.1:1001]
+22:33:18.827 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:18.827 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:18.827 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:18.827 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:18.827 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:18.827 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:18.827 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:18.830 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.830 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:18.830 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:18.830 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:18.830 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:18.830 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:18.830 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737598830, dataVersion=DataVersion[timestamp=1635737598830, counter=0], channel=Mock for Channel, hashCode: 967677821, haServerAddr=127.0.0.1:1001]
+22:33:18.830 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:18.830 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:18.830 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:18.830 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:18.830 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:18.830 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:18.830 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:18.831 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.831 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:18.831 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:18.831 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:18.831 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:18.831 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:18.831 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737598831, dataVersion=DataVersion[timestamp=1635737598831, counter=0], channel=Mock for Channel, hashCode: 552674617, haServerAddr=127.0.0.1:1001]
+22:33:18.831 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:18.831 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:18.831 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:18.831 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:18.831 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:18.831 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:18.831 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:18.831 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.831 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:18.831 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 1
+22:33:18.831 [main] INFO  RocketmqNamesrv - topicQueueTable Topic: topic-a [QueueData [brokerName=broker-a, readQueueNums=0, writeQueueNums=0, perm=6, topicSysFlag=0]]
+22:33:18.831 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:18.831 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:18.831 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:18.832 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737598831, dataVersion=DataVersion[timestamp=1635737598831, counter=0], channel=Mock for Channel, hashCode: 1974622245, haServerAddr=127.0.0.1:1001]
+22:33:18.832 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:18.832 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:18.832 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:18.832 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:18.832 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:18.832 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:18.832 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:18.832 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.832 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:18.832 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:18.832 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:18.832 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:18.832 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:18.832 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737598832, dataVersion=DataVersion[timestamp=1635737598832, counter=0], channel=Mock for Channel, hashCode: 977160959, haServerAddr=127.0.0.1:1001]
+22:33:18.832 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:18.832 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:18.832 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:18.832 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:18.832 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:18.832 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:18.832 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:18.833 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.833 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:18.833 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:18.833 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:18.833 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:18.833 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:18.833 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737598832, dataVersion=DataVersion[timestamp=1635737598832, counter=0], channel=Mock for Channel, hashCode: 1057507014, haServerAddr=127.0.0.1:1001]
+22:33:18.833 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:18.833 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:18.833 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:18.833 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:18.833 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:18.833 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:18.833 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+22:33:18.833 [main] INFO  RocketmqNamesrv - new broker registered, 127.0.0.1:10911 HAServer: 127.0.0.1:1001
+22:33:18.833 [main] INFO  RocketmqNamesrv - --------------------------------------------------------
+22:33:18.833 [main] INFO  RocketmqNamesrv - topicQueueTable SIZE: 0
+22:33:18.833 [main] INFO  RocketmqNamesrv - brokerAddrTable SIZE: 1
+22:33:18.833 [main] INFO  RocketmqNamesrv - brokerAddrTable brokerName: default-broker BrokerData [brokerName=default-broker, brokerAddrs={1234=127.0.0.1:10911}]
+22:33:18.833 [main] INFO  RocketmqNamesrv - brokerLiveTable SIZE: 1
+22:33:18.833 [main] INFO  RocketmqNamesrv - brokerLiveTable brokerAddr: 127.0.0.1:10911 BrokerLiveInfo [lastUpdateTimestamp=1635737598833, dataVersion=DataVersion[timestamp=1635737598833, counter=0], channel=Mock for Channel, hashCode: 2007599722, haServerAddr=127.0.0.1:1001]
+22:33:18.833 [main] INFO  RocketmqNamesrv - clusterAddrTable SIZE: 1
+22:33:18.834 [main] INFO  RocketmqNamesrv - clusterAddrTable clusterName: default-cluster [default-broker]
+22:33:18.834 [main] INFO  RocketmqNamesrv - unregisterBroker, remove from brokerLiveTable OK, 127.0.0.1:10911
+22:33:18.834 [main] INFO  RocketmqNamesrv - unregisterBroker, remove addr from brokerAddrTable OK, 127.0.0.1:10911
+22:33:18.834 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from brokerAddrTable OK, default-broker
+22:33:18.834 [main] INFO  RocketmqNamesrv - unregisterBroker, remove name from clusterAddrTable OK, default-broker
+22:33:18.834 [main] INFO  RocketmqNamesrv - unregisterBroker, remove cluster from clusterAddrTable default-cluster
+RocketMQLog:WARN No appenders could be found for logger (io.netty.util.internal.InternalThreadLocalMap).
+RocketMQLog:WARN Please initialize the logger system properly.
+22:33:19.208 [main] DEBUG RocketmqNamesrv - pickupTopicRouteData null TopicRouteData [orderTopicConf=null, queueDatas=null, brokerDatas=[], filterServerTable={}]
+22:33:19.210 [main] INFO  RocketmqNamesrv - load KV config table OK
+22:33:19.903 [main] INFO  RocketmqNamesrv - putKVConfig create new Namespace ORDER_TOPIC_CONFIG
+22:33:19.903 [main] INFO  RocketmqNamesrv - putKVConfig create new config item, Namespace: ORDER_TOPIC_CONFIG Key: UnitTest Value: test
+22:33:22.907 [main] INFO  RocketmqNamesrv - load KV config table OK

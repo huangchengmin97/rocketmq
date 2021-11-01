@@ -1,0 +1,3 @@
+org.apache.rocketmq.remoting.RemotingServerTest.testInvokeOneway
+org.apache.rocketmq.remoting.RemotingServerTest.testInvokeAsync
+org.apache.rocketmq.remoting.RemotingServerTest.testInvokeSync
